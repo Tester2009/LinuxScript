@@ -1,0 +1,10 @@
+#!/bin/bash
+# created to move all files and folder to 'OLD' directory.
+# Created by @Tester2009 at August 21, 2018
+
+
+# create a folder to move the files/directory
+mkdir $HOME/Projects/OLD
+
+# now move all files/directory inside folder 'ABC' to 'OLD' folder
+mv $HOME/Projects/ABC/{,.}* $HOME/Projects/OLD
